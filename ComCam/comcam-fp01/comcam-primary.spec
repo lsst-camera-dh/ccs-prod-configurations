@@ -2,5 +2,5 @@
 # ComCam specific quantities
 #
 INSTRUME    String  COMCAM                      Instrument
-TSTAND      String  EOCCv1_LAS                  Test Stand
+TSTAND      String  EOCCv2_SUM                  Test Stand
 TELESCOP    String  LSST                        Telescope
