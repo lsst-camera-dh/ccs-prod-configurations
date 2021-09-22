@@ -12,7 +12,6 @@ org.lsst.ccs.application.args=--description FocalPlane --initialConfiguration "\
    Rafts:<instrument>,\
    RaftsPower:<instrument>,\
    Sequencer:common|v25,\
-   Services:<instrument>,\
    build:<instrument>,\
    Visualization:<site>,\
    timers:<instrument>" --alias comcam-fp
