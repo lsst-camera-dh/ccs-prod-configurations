@@ -16,10 +16,10 @@ RAFTNAME!   String  ${focal-plane/${RAFT}/name}    LSST Assigned Raft name
 DARKTIME!   Float   ${darkTime}                 Dark Time in Seconds (see TSEIA-91)
 EMUIMAGE    String  ${emulatedImage}            Image bring emulated (from 2-day store)
 #
-DATE-BEG    String {startIntegrationTime} Time at the start of integration
-MJD-BEG     String {startIntegrationTime} Modified Julian Date derived from DATE-BEG
-DATE-END    String {endIntegrationTime}   End date of the observation
-MJD-END     String {endIntegrationTime}   Date derived from DATE-END
+DATE-BEG    Date    ${startIntegrationTime} Time at the start of integration
+MJD-BEG     MJD     ${startIntegrationTime} Modified Julian Date derived from DATE-BEG
+DATE-END    Date    ${endIntegrationTime}   End date of the observation
+MJD-END     MJD     ${endIntegrationTime}   Date derived from DATE-END
 #
 TSEQNUM     Integer ${TestSeqNum}                Sequence number within current test
 #
