@@ -1,6 +1,6 @@
 # Specification file for primary header. 
 # ComCam specific quantities
 #
-INSTRUME    String  COMCAM                      Instrument
+INSTRUME    String  ComCam                      Instrument
 TSTAND      String  EOCCv2_SUM                  Test Stand
-TELESCOP    String  LSST                        Telescope
+TELESCOP    String  "Simonyi Survey Telescope"  Telescope

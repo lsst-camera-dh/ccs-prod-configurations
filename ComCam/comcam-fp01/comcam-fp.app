@@ -21,4 +21,3 @@ org.lsst.ccs.ld.library.path=Daq4
 org.lsst.ccs.raft.partition=comcam
 org.lsst.ccs.subsystem.agent.property.group=comcam
 system.pre-execute=daqv4-setup
-org.lsst.ccs.config.remote=true

@@ -5,7 +5,7 @@ org.lsst.ccs.application.args=--description FocalPlane --initialConfiguration "\
    General:common|<instrument>|<instrument>-<site>,\
    HardwareId:<instrument>,\
    Instrument:<instrument>|<instrument>-<site>,\
-   Limits:<instrument>(7),\
+   Limits:<instrument>,\
    RaftsLimits:<instrument>,\
    RaftTempControl:<instrument>,\
    RaftTempControlStatus:<instrument>,\
@@ -21,4 +21,4 @@ org.lsst.ccs.ld.library.path=Daq4
 org.lsst.ccs.raft.partition=emu
 org.lsst.ccs.subsystem.agent.property.group=comcam
 system.pre-execute=daqv4-setup
-org.lsst.ccs.config.remote=true
+
