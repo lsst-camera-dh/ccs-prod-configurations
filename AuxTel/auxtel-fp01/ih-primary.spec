@@ -26,3 +26,9 @@ TSEQNUM     Integer ${TestSeqNum}                Sequence number within current 
 # CCS versions
 FPVERS      String  ${focal-plane/ccsVersions/agent/version}  The focal-plane version number
 IHVERS      String  ${${AGENT_NAME}/ccsVersions/agent/version} The image-handling version number
+#
+# Stutter keywords (CAP-895)
+HIERARCH.STUTTER.ROWS      Integer ${StutterRows|_NULL_}     The number of row shifts per stutter
+HIERARCH.STUTTER.DELAY     Float ${StutterDelay|_NULL_}      [s] The delay between stutters
+HIERARCH.STUTTER.NSHIFTS   Integer ${StutterNShifts|_NULL_}  The number of stutters
+
