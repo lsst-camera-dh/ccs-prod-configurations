@@ -9,7 +9,7 @@ org.lsst.ccs.application.args=--description FocalPlane --initialConfiguration "\
    RaftsLimits:<instrument>,\
    RaftTempControl:<instrument>,\
    RaftTempControlStatus:<instrument>,\
-   Rafts:<instrument>|<instrument>-v26,\
+   Rafts:<instrument>|<instrument>-v26|<instrument>-<site>,\
    RaftsPower:<instrument>,\
    Sequencer:common|v26,\
    build:<instrument>,\
