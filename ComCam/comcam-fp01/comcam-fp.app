@@ -9,9 +9,9 @@ org.lsst.ccs.application.args=--description FocalPlane --initialConfiguration "\
    RaftsLimits:<instrument>,\
    RaftTempControl:<instrument>,\
    RaftTempControlStatus:<instrument>,\
-   Rafts:<instrument>,\
+   Rafts:<instrument>|<instrument>-v26,\
    RaftsPower:<instrument>,\
-   Sequencer:common|v25,\
+   Sequencer:common|v26,\
    build:<instrument>,\
    Visualization:<site>,\
    timers:<instrument>" --alias comcam-fp
