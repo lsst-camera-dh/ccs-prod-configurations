@@ -40,7 +40,8 @@ BLANK HierInfo ---- Hierarch information for CSC Simulatiom Mode ----
 ORIGIN      String  ${Origin}                   Which site acquired the data
 Basic:DATE        Date    ${FileCreationTime}         Creation Date and Time of File
 Basic:MJD         MJD     ${FileCreationTime}         Modified Julian Date that the file was written
-Basic:IMGTYPE     String  ${ImageType|UNKNOWN}        BIAS, DARK, FE55, FLAT, FLAT_<lam>, SPOT, PPUMP
+#CAP-925 workaround
+#Basic:IMGTYPE     String  ${ImageType|UNKNOWN}        BIAS, DARK, FE55, FLAT, FLAT_<lam>, SPOT, PPUMP
 
 RUNNUM      String  ${RunNumber}                The Run Number
 CONTROLL    String  ${Instrument}               Duplicates INSTRUME

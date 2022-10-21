@@ -84,4 +84,6 @@ ExpInfo:SHUTTIME  String _NULL_ Shutter exposure time
 #Basic:MJD-END   String _NULL_ Modified Julian Date derived from DATE-END
 # Temporary workaround
 # ExpInfo:DARKTIME  String _NULL_ Dark time
+# CAP-925 workaround
+Basic:IMGTYPE     String _NULL_ BIAS, DARK, FE55, FLAT, FLAT_<lam>, SPOT, PPUMP
 
