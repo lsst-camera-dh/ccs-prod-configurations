@@ -3,7 +3,7 @@
 # Temporary fix for LSSTCCSRAFTS-488
 Basic:DATE-OBS!    Date    ${startIntegrationTime}     Date of the image trigger (readout)
 Basic:MJD-OBS!     MJD     ${startIntegrationTime}     Modified Julian Date of image trigger
-Basic:DATE-TRG!    Date    ${DAQTriggerTime}           Date of the image trigger (readout), UTC for now
+Basic:DATE-TRG!    Date    ${DAQTriggerTime}           Date of the image trigger (readout)
 Basic:MJD-TRG!     MJD     ${DAQTriggerTime}           Modified Julian Date of image trigger
 #
 CommCamInfo:IMAGETAG!    String  ${Tag}                      DAQ Image id (Hex)
