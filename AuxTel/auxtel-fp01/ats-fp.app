@@ -9,7 +9,7 @@ org.lsst.ccs.application.args=--alias ats-fp --description FocalPlane --initialC
    RaftTempControlStatus:<instrument>,\
    Rafts:<instrument>|<instrument>-<site>,\
    RaftsPower:<instrument>,\
-   Sequencer:common|v26|disableIdleFlush,\
+   Sequencer:common|v26noRG|disableIdleFlush,\
    build:<instrument>,\
    Visualization:<site>,\
    timers:<instrument>
