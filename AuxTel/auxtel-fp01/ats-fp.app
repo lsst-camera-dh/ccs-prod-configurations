@@ -3,7 +3,7 @@ org.lsst.ccs.application.args=--alias ats-fp --description FocalPlane --initialC
    Devices:<instrument>,\
    General:common|<instrument>|<instrument>-<site>,HardwareId:<instrument>,\
    Instrument:<instrument>|<instrument>-<site>,\
-   Limits:<instrument>,\
+   Limits:<instrument>|<instrument>-<site>,\
    RaftsLimits:<instrument>,\
    RaftTempControl:<instrument>,\
    RaftTempControlStatus:<instrument>,\
