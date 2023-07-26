@@ -1,6 +1,7 @@
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.args=--description ImageHandling --alias comcam-ih --initialConfiguration "\
    General:<instrument>|<instrument>-<site>,\
+   Guider:noGuiding,\
    DAQ:common|<instrument>|<instrument>-<site>,\
    build:common|<instrument>|<instrument>-<site>,\
    Commands:common|<instrument>|<instrument>-<site>,\
