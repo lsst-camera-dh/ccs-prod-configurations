@@ -2,6 +2,7 @@ org.lsst.ccs.application.args=--alias ats-fp --description FocalPlane --initialC
    DAQ:common|<instrument>|<instrument>-<site>,\
    Devices:<instrument>,\
    General:common|<instrument>|<instrument>-<site>,HardwareId:<instrument>,\
+   Guider:no-guiding,\
    Instrument:<instrument>|<instrument>-<site>,\
    Limits:<instrument>|<instrument>-<site>,\
    RaftsLimits:<instrument>,\
