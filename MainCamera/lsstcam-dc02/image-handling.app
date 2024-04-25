@@ -7,5 +7,4 @@ org.lsst.ccs.application.args=--alias image-handling-<host> --description ImageH
     DAQ:common|<instrument>|<site>|<host>,\
     FitsHandling:common|<site>" 
 org.lsst.ccs.application.description=Run the Image Handling Subsystem (<host>)
-org.lsst.ccs.subsystem.agent.property.group=camera
-org.lsst.ccs.config.remote=true
+
