@@ -1,1 +1,1 @@
-org.lsst.ccs.subsystem.cluster.monitor.level=INFO
+org.lsst.ccs.application.args=--description ClusterMonitor --initialConfiguration  InfluxDb:<cluster>|enabled
