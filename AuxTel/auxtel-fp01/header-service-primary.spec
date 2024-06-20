@@ -30,6 +30,7 @@ Pointing:DOMEAZ    String _NULL_ [deg] Dome Azimuth Position
 Pointing:SHUTLOWR  String _NULL_ Dome Dropout Door Opening Percentage
 Pointing:SHUTUPPR  String _NULL_ Dome Main Door Opening Percentage
 Pointing:VIGNETTE  String _NULL_ Is the telescope vignetted?
+Pointing:VIGN_MIN  String _NULL_ Is the telescope vignetted?
 #
 HierInfo:HIERARCH.SIMULATE.ATMCS            String _NULL_ ATMCS Simulation Mode (False=0)
 HierInfo:HIERARCH.SIMULATE.ATHEXAPOD        String _NULL_ ATHexapod Simulation Mode (False=0)
