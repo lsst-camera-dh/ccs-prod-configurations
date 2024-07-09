@@ -25,6 +25,8 @@ Pointing:TRACKSYS  String _NULL_ Tracking system RADEC, AZEL, PLANET, EPHEM
 Pointing:RADESYS   String _NULL_ Equatorial coordinate system FK5 or ICRS
 Pointing:FOCUSZ    String _NULL_ Focus Z position
 Pointing:OBJECT    String _NULL_ Name of the observed object
+Pointing:VIGNETTE  String _NULL_ Is the telescope vignetted?
+Pointing:VIGN_MIN  String _NULL_ Minimum vignetting?
 #
 #GROUPID   String _NULL_  
 Basic:BUNIT     String _NULL_ Brightness units for pixel array
