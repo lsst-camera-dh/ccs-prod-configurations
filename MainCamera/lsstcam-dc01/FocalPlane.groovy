@@ -81,6 +81,10 @@ builder.
                     title = ""
                 }
 
+                "tempAvg" (TemperatureRunningAverageChannel, description: "Reb temperature running average during exposure", units: "\u00b0C",
+                    type: "TEMP", doNotTrend: true, checkHi:"none", checkLo:"none")
+
+
                 // Hacked as a workaround for LSSTCCSRAFTS-527 -- better fix needed
 
                 if ( ! isCornerRaft ) {
