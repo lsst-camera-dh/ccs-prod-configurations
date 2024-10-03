@@ -286,7 +286,7 @@ builder.main (ChillerSubsystem) {
         GlycChillerIn  (Channel, description: "TC1: Glycol into Chiller", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
                         subtype: "T220", type: "0", hwChan: 0,
-                        checkLo:"none", checkHi:"none")
+                        checkLo:"none", checkHi:"alarm")
         
         GlycCondensOut (Channel, description: "TC2: Glycol out of Condenser", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
@@ -301,7 +301,7 @@ builder.main (ChillerSubsystem) {
         GlycChillerOut (Channel, description: "TC4: Glycol out of Chiller", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
                         subtype: "T220", type: "0", hwChan: 3,
-                        checkLo:"none", checkHi:"none")
+                        checkLo:"none", checkHi:"alarm")
         
         GlycFanIn      (Channel, description: "TC20: Glycol into Fan", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
