@@ -1,4 +1,4 @@
-system.property.org.lsst.ccs.resource.path=/home/ccs/projects/sequencer-files/run5/|../etc/|~/ccs/etc/|/etc/ccs/
+system.property.org.lsst.ccs.resource.path=ccs://lsst-camera-dev.slac.stanford.edu/RestFileServer/misc/sequencer-files[seq]|../etc/|~/ccs/etc/|/etc/ccs/
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.args=--description FocalPlane --alias focal-plane --initialConfiguration "\
    DAQ:common|<instrument>|<instrument>-<site>,\
@@ -13,7 +13,7 @@ org.lsst.ccs.application.args=--description FocalPlane --alias focal-plane --ini
    RaftTempControlStatus:<instrument>|<instrument>-on,\
    Rafts:<instrument>,\
    RaftsPower:<instrument>,\
-   Sequencer:common|v26,\
+   Sequencer:common|v29,\
    build:<instrument>,\
    Visualization:<instrument>-<site>,\
    timers:<instrument>" 

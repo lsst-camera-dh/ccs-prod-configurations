@@ -1,1 +1,1 @@
-focal-plane-guiding-on.app
+focal-plane-science-on.app
