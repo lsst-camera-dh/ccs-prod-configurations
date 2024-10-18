@@ -1,1 +1,1 @@
-comcam-fp-emu.app
+comcam-fp-normal.app

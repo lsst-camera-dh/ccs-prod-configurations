@@ -1,1 +1,1 @@
-comcam-daq-monitor-emu.app
+comcam-daq-monitor-normal.app
