@@ -1,1 +1,1 @@
-comcam-mcm-emu.app
+comcam-mcm-normal.app
