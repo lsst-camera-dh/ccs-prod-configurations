@@ -1,1 +1,1 @@
-focal-plane-science-on.app
+focal-plane-guiding-on-dp80.app
