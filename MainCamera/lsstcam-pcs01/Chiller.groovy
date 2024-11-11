@@ -206,7 +206,7 @@ builder.main (ChillerSubsystem) {
         Stg1TXVBulb    (Channel, description: "TC7: Stage1 TXV Thermal Bulb", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
                         subtype: "T220", type: "0", hwChan: 6,
-                        checkLo:"none", checkHi:"none")
+                        checkLo:"none", checkHi:"alarm")
         
         Stg1Return     (Channel, description: "TC8: Stage1 Return", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
@@ -286,7 +286,7 @@ builder.main (ChillerSubsystem) {
         GlycChillerIn  (Channel, description: "TC1: Glycol into Chiller", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
                         subtype: "T220", type: "0", hwChan: 0,
-                        checkLo:"none", checkHi:"alarm")
+                        checkLo:"flag", checkHi:"alarm")
         
         GlycCondensOut (Channel, description: "TC2: Glycol out of Condenser", 
                         devcName: "Maq20", units: "\u00b0C", format: ".1f",
