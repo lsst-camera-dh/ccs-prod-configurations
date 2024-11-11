@@ -1,6 +1,6 @@
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.description=Run FCS Subsystem with real hardware
-org.lsst.ccs.application.args=--description Fcs --alias <app> --initialConfiguration "timers:base|monitoring|<acInstance>|<caInstance>|<loInstance>,canbus:carousel|loader,controller:autochanger|<acInstance>|carousel|<caInstance>|loader|<loInstance>,serialNB:<acInstance>|<caInstance>|<loInstance>,Devices:base,Limits:base,filter:carousel,nodeID:autochanger|carousel|loader,sensor:autochanger|<acInstance>|carousel|<caInstance>|loader|<loInstance>,readRate:autochanger|carousel|loader,carousel:carousel|<caInstance>,autochanger:autochanger|<acInstance>,loader:loader|<loInstance>"
+org.lsst.ccs.application.args=--description Fcs --alias <app> --initialConfiguration "timers:base|<acInstance>|<caInstance>|<loInstance>,canbus:carousel|loader,controller:autochanger|<acInstance>|carousel|<caInstance>|loader|<loInstance>,serialNB:<acInstance>|<caInstance>|<loInstance>,filter:carousel,nodeID:autochanger|carousel|loader,sensor:autochanger|<acInstance>|carousel|<caInstance>|loader|<loInstance>,readRate:autochanger|carousel|loader,carousel:carousel|<caInstance>,autochanger:autochanger|<acInstance>,loader:loader|<loInstance>"
 
 org.lsst.ccs.run.mode=hardware
 org.lsst.ccs.subsystem.agent.property.runMode=hardware
