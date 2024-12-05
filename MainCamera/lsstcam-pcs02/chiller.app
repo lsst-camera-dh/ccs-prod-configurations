@@ -1,3 +1,2 @@
-org.lsst.ccs.application.description=Run the chiller control system (as chiller2 on lsstcam-pcs02)
-org.lsst.ccs.application.extends=chiller2
-
+org.lsst.ccs.subsystem.agent.property.chiller-unit=chiller2
+org.lsst.ccs.subsystem.agent.property.chiller-connection=prototype
