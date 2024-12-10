@@ -21,6 +21,4 @@ org.lsst.ccs.subsystem.agent.property.loInstance=loader1
 # for GUI
 org.lsst.ccs.subsystem.agent.property.agentCategory=FILTER_CHANGER
 
-# no remote persistence
-org.lsst.ccs.persist.remote=false
 
