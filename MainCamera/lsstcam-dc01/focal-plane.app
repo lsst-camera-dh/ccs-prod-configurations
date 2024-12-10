@@ -1,1 +1,1 @@
-focal-plane-guiding-on-dp80.app
+focal-plane-emu.app
