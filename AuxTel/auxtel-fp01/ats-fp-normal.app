@@ -10,7 +10,7 @@ org.lsst.ccs.application.args=--alias ats-fp --description FocalPlane --initialC
    RaftTempControlStatus:<instrument>,\
    Rafts:<instrument>|<instrument>-<site>,\
    RaftsPower:<instrument>,\
-   Sequencer:common|v26noRG|disableIdleFlush,\
+   Sequencer:common|v30|disableIdleFlush,\
    build:<instrument>,\
    Visualization:<site>,\
    timers:<instrument>
@@ -22,3 +22,4 @@ org.lsst.ccs.raft.partition=lat
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.description=Run the FocalPlane Subsystem
 system.property.org.lsst.ccs.config.remote=true
+system.property.org.lsst.ccs.resource.path=ccs://lsst-camera-dev.slac.stanford.edu/RestFileServer/misc/sequencer-files[seq]|../etc/|~/ccs/etc/|/etc/ccs/
