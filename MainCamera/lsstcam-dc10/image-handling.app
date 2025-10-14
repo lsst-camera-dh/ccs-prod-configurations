@@ -1,7 +1,7 @@
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.args=--alias image-handling-<host> --description ImageHandling  --initialConfiguration "\
     build:<host>,\
-    General:lsstcam,\
+    General:lsstcam|lsstcam-<site>,\
     Guider:<instrument>-guiding,\
     Commands:common|<instrument>|<instrument>-<site>,\
     DAQ:common|<instrument>|<site>|<host>,\
