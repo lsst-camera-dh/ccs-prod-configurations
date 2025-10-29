@@ -9,7 +9,7 @@ org.lsst.ccs.application.args=--description FocalPlane --alias focal-plane --ini
    Instrument:<instrument>|<instrument>-<site>,\
    Limits:<instrument>,\
    RaftsLimits:<instrument>-dp80,\
-   RaftTempControl:<instrument>|<instrument>-102e,\
+   RaftTempControl:<instrument>|<instrument>-101e,\
    RaftTempControlStatus:<instrument>|<instrument>-on,\
    Rafts:<instrument>-dp80|<instrument>-rc2,\
    RaftsPower:<instrument>,\
@@ -23,3 +23,6 @@ org.lsst.ccs.raft.partition=bts
 org.lsst.ccs.dbUrl=jdbc:mysql://lsst-ir2db01.slac.stanford.edu:3306/ir2dbprod?user=ccs&password=ccs23&autoReconnect=true
 org.lsst.ccs.transport=jgroups:udp_ccs:org.lsst.ccs.messaging.util.MultiQueueDispatcher
 org.lsst.ccs.monitoring.no.reliability=true
+# Extra logging for idle_clear 
+# org.lsst.ccs.subsystem.focalplane.IdleClear.level=FINE
+# org.lsst.ccs.subsystem.focalplane.Sequencers.level=FINE
