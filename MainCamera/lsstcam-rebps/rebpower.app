@@ -5,8 +5,9 @@ org.lsst.ccs.application.args=--description RebPowerSupply \
           --initialConfiguration "build:<alias>,\
                                   Limits:<alias>,\
                                   Power:<alias>,\
+                                  HVRegulation:<alias>(19),\
                                   General:<alias>,\
-                                  timers:<alias>,\
+                                  timers:<alias>(14),\
                                   Devices:<alias>"
 
 #To use a REB power supply with prototype firmware
