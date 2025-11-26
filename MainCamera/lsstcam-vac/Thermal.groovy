@@ -299,7 +299,7 @@ builder.main (ThermalMain,
                             devcName: "TrimPower", hwChan: 5, type: "POWER")
 
     "Trim_Htrs/CryoTotal_P" (Channel, description: "Cryo Total Power", units: "Watts", format: ".1f",
-                             devcName: "TrimPower", hwChan: TrimHeaters.TRIM_HEATER_CRYO, type: "TOTALPOWER", checkLo: "alarm")
+                             devcName: "TrimPower", hwChan: TrimHeaters.TRIM_HEATER_CRYO, type: "TOTALPOWER", checkLo: "alarm", hysteresis: 0.008)
 
     "Trim_Htrs/HtrBulk_V" (Channel, description: "Heater Bulk PS Voltage", units: "Volts", format: ".1f",
                            devcName: "TrimPower", hwChan: 0, type: "MAINVOLTS")
