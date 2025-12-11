@@ -3,7 +3,7 @@ org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.args=--description RebPowerSupply \
           --alias rebpower \
           --initialConfiguration "build:<alias>,\
-                                  Limits:<alias>,\
+                                  Limits:<alias>|generated-camera-normal-state,\
                                   Power:<alias>,\
                                   HVRegulation:<alias>(19),\
                                   General:<alias>,\
