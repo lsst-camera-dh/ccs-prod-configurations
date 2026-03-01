@@ -19,6 +19,8 @@ FocalPlane focalPlane = new FocalPlane(buildProperties.getProperty("org.lsst.ccs
 
 Properties props = BootstrapResourceUtils.getBootstrapSystemProperties()
 
+List heaterPowerChannels = new ArrayList();
+
 builder.
     "main" (FocalPlaneSubsystem, geometry:focalPlane) {
 
@@ -145,6 +147,10 @@ builder.
                 "HtrV"    (Channel, description: "$reb heater\\Heater voltage", units: "Volts",
                             hwChan: REBDevice.CHAN_HTR_VOLTS, type: "HEATER")
 
+
+                if ( ! reb.contains("RebG") && !reb.contains("Reb1") ) {
+                    heaterPowerChannels.add(reb+"/HtrW");
+                }
                 "HtrW"    (Channel, description: "Heater power", units: "Watts",
                             hwChan: REBDevice.CHAN_HTR_POWER, type: "HEATER")
 
@@ -361,4 +367,11 @@ builder.
     "RebTotalPower" (RebTotalPower, description:"Reb Total Power", units:"Watts")
 
     "RebsAverageTemp6" (ConfiguredAverageChannel, description: "Average Rebs Temp6", units: "\u00b0C")
+
+    if ( heaterPowerChannels.size > 0 ) {   
+        System.out.println("Adding RebTotalHeaderPower with channels :"+heaterPowerChannels.toString());
+        "RebTotalHeaterPower" (CalcChannel, description: "Reb Total Heater Power", units: "Watts",
+                        type: CalcChannel.Operation.SUM, channelPaths: heaterPowerChannels, checkHi:"none", checkLo:"none")
+    }
+
 }
