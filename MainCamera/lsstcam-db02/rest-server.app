@@ -1,0 +1,1 @@
+org.lsst.ccs.application.args = --description class:org.lsst.ccs.localdb.trendserver.TrendingRestServer --initialConfiguration "build:common|<cluster>-<site>,General:<cluster>-<site>,timers:common|<cluster>-<site>"
