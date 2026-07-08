@@ -7,7 +7,7 @@ org.lsst.ccs.application.args=--description RebPowerSupply \
                                   Power:<alias>,\
                                   HVRegulation:<alias>(19),\
                                   General:<alias>,\
-                                  timers:<alias>(14),\
+                                  timers:<alias>,\
                                   Devices:<alias>"
 
 #To use a REB power supply with prototype firmware
