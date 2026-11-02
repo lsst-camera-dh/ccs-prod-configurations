@@ -7,7 +7,7 @@ org.lsst.ccs.application.args=--description FocalPlane --alias focal-plane --ini
    Guider:<instrument>-guiding,\
    HardwareId:<instrument>,\
    Instrument:<instrument>|<instrument>-<site>,\
-   Limits:<instrument>|generated-camera-normal-state,\
+   Limits:<instrument>,\
    RaftsLimits:<instrument>-dp80,\
    RaftTempControl:<instrument>|<instrument>-102e,\
    RaftTempControlStatus:<instrument>|<instrument>-on,\
