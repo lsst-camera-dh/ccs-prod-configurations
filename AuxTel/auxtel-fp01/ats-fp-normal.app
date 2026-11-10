@@ -22,4 +22,4 @@ org.lsst.ccs.raft.partition=lat
 org.lsst.ccs.application.mainClass=org.lsst.ccs.startup.SubsystemBoot
 org.lsst.ccs.application.description=Run the FocalPlane Subsystem
 system.property.org.lsst.ccs.config.remote=true
-system.property.org.lsst.ccs.resource.path=ccs://lsst-camera-dev.slac.stanford.edu/RestFileServer/misc/sequencer-files[seq]|../etc/|~/ccs/etc/|/etc/ccs/
+system.property.org.lsst.ccs.resource.path=ccs://ccs.lsst.org/RestFileServer/misc/sequencer-files[seq]|../etc/|~/ccs/etc/|/etc/ccs/

@@ -7,5 +7,5 @@ org.lsst.ccs.application.args=--alias image-handling-<host> --description ImageH
     DAQ:common|<instrument>|<site>|<host>,\
     FitsHandling:common|<site>"
 org.lsst.ccs.application.description=Run the Image Handling Subsystem (<host>)
-system.property.org.lsst.ccs.resource.path=ccs://lsst-camera-dev.slac.stanford.edu/RestFileServer/misc/spec-files-combined[spec]|../etc/|~/ccs/etc/|/etc/ccs/
+system.property.org.lsst.ccs.resource.path=ccs://ccs.lsst.org/RestFileServer/misc/spec-files-combined[spec]|../etc/|~/ccs/etc/|/etc/ccs/
 
